@@ -28,7 +28,7 @@ namespace ClinicPortal_API.Controllers
         [HttpGet]
         [Route("[controller]")]
 
-        public async Task<IActionResult> GetAllPatients(int skip = 0, int take = 5)//
+        public async Task<IActionResult> GetAllPatients(int skip = 0, int take = 5)
         {
             try
             {
